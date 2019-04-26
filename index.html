@@ -1,36 +1,40 @@
 <html>
 <head>
+  <title>Out of my lane, curse of an expert generalist</title>
   <style>
-    .button {
-      border: solid #c11010 1px;
-      font-weight: 500;
-      font-size: .875rem;
-      font-family: "Helvetica Neue",Helvetica,Arial,Verdana,Tahoma;
-      line-height: 1.125rem;
-      text-decoration: none !important;
-      text-transform: uppercase;
-      -webkit-transition: all .2s ease-in-out;
-      transition: all .2s ease-in-out;
-      display: inline-block;
-      padding: 0 1.625rem;
-      border-radius: 2px;
-      box-sizing: border-box;
-      cursor: pointer;
-      text-align: center;
-      line-height: 2.25rem;
-      vertical-align: middle;
-      white-space: nowrap;
-      color: black;
-    }
-    
-    .button:hover {
-      background: #c11010;
-      color: white;
-    }
+    body {
+  font-family: "proxima-nova",sans-serif;
+  font-size: 15px;
+  color: #111;
+}
+
+.flex-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.flex-container > div {
+  margin: 3px;
+  padding: 2px;
+}
+
+.mono-text {
+    font-family: 'Roboto Mono', sans-serif;
+    letter-spacing: 0.4px;
+    text-transform: uppercase;
+}
+
   </style>
 </head>
 <body>
-  <h1>Out of my lane</h1>
-  <h2>Curse of an expert generalist</h2>
+  <div class="flex-container-left mono-text">
+    <div>Jim Collinsworth</div>
+    <div>Out of my lane</div>
+    <div>Curse of an expert generalist</div>
+    <div>Guitarist, software developer, amateur scientist</div>
+    <div>Blog</div>
+    <div>Reading List</div>
+  </div>   
 </body>
 </html>
